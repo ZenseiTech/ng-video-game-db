@@ -4,7 +4,7 @@ import { Observable } from "rxjs";
 
 @Injectable()
 export class HttpHeadersInterceptor implements HttpInterceptor {
-  constructor() {}
+  constructor() { }
 
   intercept(
     req: HttpRequest<any>,
@@ -12,7 +12,7 @@ export class HttpHeadersInterceptor implements HttpInterceptor {
   ): Observable<HttpEvent<any>> {
     req = req.clone({
       setHeaders: {
-        'x-rapidapi-key': 'esGbwrm390mshS2BCl0RALxQRtZTp1W7sFMjsnyJlJzDXVkW0H',
+        'x-rapidapi-key': 'db4e67b652msh326fca0f84973b3p122031jsnba504b41c8d6',
         'x-rapidapi-host': 'rawg-video-games-database.p.rapidapi.com',
       },
       setParams: {
